@@ -1,2 +1,15 @@
 [git_branch]
 symbol = "🌱 "
+
+[hostname]
+ssh_only = false
+format = "<[$hostname]($style)>"
+trim_at = "-"
+style = "bold dimmed white"
+disabled = true
+
+[directory]
+truncate_to_repo = false
+
+[gcloud]
+format = 'on [$symbol$account(-$project)(\($region\))]($style) '
